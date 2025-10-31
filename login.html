@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedAlert - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MedAlert</h1>
+    <div class="info">
+      <div id="fecha-hora"></div>
+      <div>👤 Rol: Selección</div>
+    </div>
+    <button onclick="toggleDarkMode()">🌙 Modo Oscuro</button>
+  </header>
+
+  <div class="container">
+    <form>
+      <h2>🔐 Ingreso a MedAlert</h2>
+
+      <label>Usuario:</label>
+      <input type="text" placeholder="Ingrese su usuario" required>
+
+      <label>Contraseña:</label>
+      <input type="password" placeholder="Ingrese su contraseña" required>
+
+      <label>Selecciona tu rol:</label>
+      <select required>
+        <option value="paciente">Paciente</option>
+        <option value="cuidador">Cuidador</option>
+      </select>
+
+      <a href="dashboard.html" class="btn">Ingresar</a>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

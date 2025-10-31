@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agregar Cita - MedAlert</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MedAlert</h1>
+    <div class="info">
+      <div id="fecha-hora"></div>
+      <div>👤 Rol: Paciente</div>
+    </div>
+    <button onclick="toggleDarkMode()">🌙 Modo Oscuro</button>
+
+  </header>
+
+  <div class="container">
+    <h2>➕ Nueva Cita Médica</h2>
+    <form>
+      <label>Fecha:</label>
+      <input type="date" required>
+
+      <label>Hora:</label>
+      <input type="time" required>
+
+      <label>Médico:</label>
+      <input type="text" placeholder="Nombre del médico" required>
+
+      <label>Especialidad:</label>
+      <input type="text" placeholder="Ej: Cardiología" required>
+
+      <button type="submit">Guardar Cita</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
