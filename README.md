@@ -102,3 +102,12 @@ MedAlert sigue una arquitectura básica cliente-servidor, organizada en:
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/Carlos-j24/appmedalert.git
+
+## Módulo de Recordatorios
+
+El módulo de recordatorios permitirá al usuario:
+- Programar alertas para la toma de medicamentos.
+- Recibir notificaciones en horarios configurados.
+- Visualizar el historial de alertas atendidas.
+
+Este módulo hace parte de las funcionalidades principales de MedAlert.
