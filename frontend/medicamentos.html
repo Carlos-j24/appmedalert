@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agregar Medicamento - MedAlert</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MedAlert</h1>
+    <div class="info">
+      <div id="fecha-hora"></div>
+      <div>👤 Rol: Paciente</div>
+    </div>
+    <button onclick="toggleDarkMode()">🌙 Modo Oscuro</button>
+
+  </header>
+
+  <div class="container">
+    <h2>💊 Nuevo Medicamento</h2>
+    <form>
+      <label>Nombre del medicamento:</label>
+      <input type="text" placeholder="Ej: Losartán 50mg" required>
+
+      <label>Dosis:</label>
+      <input type="text" placeholder="Ej: 1 tableta cada 12h" required>
+
+      <label>Horario:</label>
+      <input type="time" required>
+
+      <button type="submit">Guardar Medicamento</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

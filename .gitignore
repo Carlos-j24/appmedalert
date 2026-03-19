@@ -1,0 +1,13 @@
+# PocketBase (datos sensibles)
+backend/pocketbase/pb_data/data.db
+backend/pocketbase/pb_data/logs/
+
+# Node
+node_modules/
+
+# Variables de entorno
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db

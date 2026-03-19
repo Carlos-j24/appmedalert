@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedAlert - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MedAlert</h1>
+    <div class="info">
+      <div id="fecha-hora"></div>
+      <div>👤 Rol: Paciente</div>
+    </div>
+    <button onclick="toggleDarkMode()">🌙 Modo Oscuro</button>
+
+  </header>
+
+  <div class="container">
+    <section id="alertas"></section>
+
+    <h2>📅 Citas Médicas</h2>
+    <table>
+      <tr>
+        <th>Fecha</th>
+        <th>Hora</th>
+        <th>Médico</th>
+        <th>Especialidad</th>
+      </tr>
+      <tr>
+        <td>26/09/2025</td>
+        <td>08:00 AM</td>
+        <td>Dra. Gómez</td>
+        <td>Cardiología</td>
+      </tr>
+      <tr>
+        <td>28/09/2025</td>
+        <td>11:00 AM</td>
+        <td>Dr. Ramírez</td>
+        <td>Medicina General</td>
+      </tr>
+    </table>
+    <a href="citas.html" class="btn">➕ Agregar Nueva Cita</a>
+
+    <h2>💊 Medicamentos</h2>
+    <a href="medicamentos.html" class="btn">➕ Agregar Nuevo Medicamento</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
