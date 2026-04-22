@@ -14,25 +14,31 @@
       <div>👤 Rol: Paciente</div>
     </div>
     <button onclick="toggleDarkMode()">🌙 Modo Oscuro</button>
-
   </header>
 
   <div class="container">
     <h2>💊 Nuevo Medicamento</h2>
-    <form>
+
+    <!-- 🔥 FORMULARIO CON IDS -->
+    <form id="form-med">
+
       <label>Nombre del medicamento:</label>
-      <input type="text" placeholder="Ej: Losartán 50mg" required>
+      <input type="text" id="nombre" placeholder="Ej: Diclofenaco" required>
 
       <label>Dosis:</label>
-      <input type="text" placeholder="Ej: 1 tableta cada 12h" required>
+      <input type="text" id="dosis" placeholder="Ej: 500 mg" required>
 
       <label>Horario:</label>
-      <input type="time" required>
+      <input type="time" id="horario" required>
 
-      <button type="submit">Guardar Medicamento</button>
+      <button type="submit" id="guardar-med">Guardar Medicamento</button>
+
     </form>
+
   </div>
 
+  <!-- 🔥 CAMBIO IMPORTANTE -->
   <script src="script.js"></script>
+
 </body>
 </html>
